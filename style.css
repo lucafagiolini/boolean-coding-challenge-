@@ -1,0 +1,83 @@
+@font-face {
+  font-family: 'Poppins', sans-serif;
+  src: url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap')
+}
+
+body{
+  background-image: url(background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+main{
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.logo{
+  width: 200px;
+  margin-top: 3%;
+}
+
+.logo-text{
+  font-size: 250%;
+  color: rgb(8,220,4);
+}
+
+.head-navigator{
+  border-radius: 3px;
+  height: 45px;
+  border: 10px;
+  background-color: rgb(8,220,4);
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 10px;
+}
+
+/* inizio sezione informazioni monopattini */
+.elenco-monopattini{
+  text-align: left;
+  margin-left: 10%;
+}
+
+.informazioni-monopattino{
+  color: white;
+  border: 1px soild #000;
+  padding: 10px;
+  margin-bottom: 5px;
+  padding: 5px;
+}
+
+p{
+  font-size: 90%;
+}
+
+#barra-percentuale-carica-gino22{
+  height: 30px;
+  background-color: rgb(255,170,0,1);
+  margin-right: 65%;
+  text-align: center;
+  border-radius: 5px;
+}
+
+#barra-percentuale-carica-mike24{
+  height: 30px;
+  background-color: rgb(8,220,4);
+  margin-right: 45%;
+  text-align: center;
+  border-radius: 5px;
+}
+
+#barra-percentuale-carica-fede154{
+  height: 30px;
+  background-color: rgb(175,20,20,1);
+  margin-right: 85%;
+  text-align: center;
+  border-radius: 5px;
+}
